@@ -3,7 +3,7 @@
 #define INCLUDE_BST_H_
 template <class T>
 class BST {
-private:
+ private:
     struct BTNode {
         T value;
         int count;
@@ -19,7 +19,7 @@ private:
     BTNode* addBST(BTNode*, T);
     int depthBST(BTNode*);
 
-public:
+ public:
     BST();
     void add(T);
     int depth();
